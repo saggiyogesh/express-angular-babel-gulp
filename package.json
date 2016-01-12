@@ -1,0 +1,34 @@
+{
+  "name": "express-angular-babel",
+  "version": "0.0.1",
+  "description": "express angular babel simple",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp serve"
+  },
+  "author": "Yogesh Agarwal",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.0",
+    "babel-plugin-syntax-async-functions": "^6.3.13",
+    "babel-plugin-transform-regenerator": "^6.3.26",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect-livereload": "^0.5.4",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1"
+  }
+}
